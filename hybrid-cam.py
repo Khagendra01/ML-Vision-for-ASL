@@ -17,9 +17,6 @@ def run_both_cameras():
     picam2.configure(video_config)
     picam2.start()
 
-    # Start time to control duration for both cameras
-    start_time_opencv = time.time()
-    start_time_picamera = time.time()
 
     # Loop to run both cameras
     while True:
@@ -42,9 +39,6 @@ def run_both_cameras():
         # Display PiCamera feed
         cv2.imshow('PiCamera Feed', frame_picamera)
 
-        # Break if 20 seconds have passed for OpenCV and 10 seconds for PiCamera
-        if time.time() - start_time_opencv > 20 and time.time() - start_time_picamera > 10:
-            break
 
         # Exit if 'q' is pressed
         if cv2.waitKey(1) & 0xFF == ord('q'):
