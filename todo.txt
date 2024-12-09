@@ -1,0 +1,6 @@
+https://github.com/dxli94/WLASL
+https://github.com/ultralytics/ultralytics?tab=readme-ov-file
+https://wiki.seeedstudio.com/tutorial_of_ai_kit_with_raspberrypi5_about_yolov8n_object_detection/
+https://www.youtube.com/watch?v=7lCDv9V9pv8&ab_channel=CodewithMughal
+https://github.com/microsoft/BitNet?tab=readme-ov-file
+https://github.com/simonefinelli/ASL-Real-time-Recognition
